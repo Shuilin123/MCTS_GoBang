@@ -10,7 +10,7 @@ The main package and version of the c++ environment are as follows
 c++                        2011
 Qt                          5.11
 ```  
-The above environment is successful when running the code of the project. In addition, it is well known that c++ has very good compatibility (version>=11). Thus, __I suggest you try to use the existing pytorch environment firstly.__  
+The above environment is successful when running the code of the project. In addition, it is well known that c++ has very good compatibility (version>=11). Thus, __I suggest you try to use the existing c++ environment firstly.__  
 
 ---  
 ## Usage 
@@ -19,7 +19,7 @@ The above environment is successful when running the code of the project. In add
 Running```git clone https://github.com/Shuilin123/MCTS_GoBang.git```  
 The project structure and intention are as follows : 
 ```
-Skeleton line extraction-Pytorch			# Source code		
+MCTS_GoBang 			# file directory		
     ├── config.py		 	# Configuration information
     ├── lib			            # Function library
     │   ├── common.py
