@@ -26,25 +26,5 @@ MCTS_GoBang 			# file directory
     │   ├── MCTS_goBang.exe #You can use the windows application directly
     ├── LICENSE		        # License document
 ```
-### 1) Datasets preparation 
-The dataset is currently not fully open source
-3. Create data path index file(.txt). running:
-Please modify the data folder path:`data_root_path`(in the [`speckle.py`](https://github.com/Shuilin123/Skeleton line extraction-Pytorch/master/prepare_dataset/drive.py) 
-```
-python ./prepare_dataset/speckle.py           
-```
-### 2) Training model
-Please confirm the configuration information in the [`config.py`](https://github.com/Shuilin123/Skeleton line extraction-Pytorch/master/config.py). Pay special attention to the `train_data_path_list` and `test_data_path_list`. Then, running:
-```
-CUDA_VISIBLE_DEVICES=1 python train.py --save UCTransNet_Skeleton_line_extraction --batch_size 64
-```
-You can configure the training information in config, or modify the configuration parameters using the command line. The training results will be saved to the corresponding directory(save name) in the `experiments` folder.  
-### 3) Testing model
-The test process also needs to specify parameters in [`config.py`](https://github.com/Shuilin123/Skeleton line extraction-Pytorch/master/config.py). You can also modify the parameters through the command line, running:
-```
-CUDA_VISIBLE_DEVICES=1 python test.py --save UCTransNet_Skeleton_line_extraction  
-```  
-The above command loads the `best_model.pth` in `./experiments/UCTransNet_Skeleton_line_extraction` and performs a performance test on the testset, and its test results are saved in the same folder.    
-
-## Visualization
-0. Training sample visualization  
+# acknowledgement
+Part of the underlying code provided by tashaxing
