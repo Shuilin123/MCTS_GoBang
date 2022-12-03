@@ -10,4 +10,5 @@ QT-GoBang 			# file directory
     ├──Icon.rc      # Icon resource file
     ├──QTWuZiQi_resoure.rc      # main resource file
     ├──Ai.zip      # Non-mcts ai source code.If you need the source code, consider making it available for good reason.
+    ├──Hash_AI.LIB # Hash table AI static link library
 ```
