@@ -8,7 +8,7 @@ The main package and version of the c++ environment are as follows
 ```
 # Name                    Version         
 c++                        2011
-Qt                          5.11
+Qt                         5.11
 ```  
 The above environment is successful when running the code of the project. In addition, it is well known that c++ has very good compatibility (version>=11). Thus, __I suggest you try to use the existing c++ environment firstly.__  
 
