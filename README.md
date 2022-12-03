@@ -20,36 +20,11 @@ Running```git clone https://github.com/Shuilin123/MCTS_GoBang.git```
 The project structure and intention are as follows : 
 ```
 MCTS_GoBang 			# file directory		
-    ├── config.py		 	# Configuration information
-    ├── lib			            # Function library
-    │   ├── common.py
-    │   ├── dataset.py		        # Dataset class to load training data
-    │   ├── datasetV2.py		        # Dataset class to load training data with lower memory
-    │   ├── extract_patches.py		# Extract training and test samples
-    │   ├── help_functions.py		# 
-    │   ├── __init__.py
-    │   ├── logger.py 		        # To create log
-    │   ├── losses
-    │   ├── metrics.py		        # Evaluation metrics
-    │   └── pre_processing.py		# Data preprocessing
-    ├── models		        # All models are created in this folder
-    │   ├── DenseUnet.py
-    │   ├── __init__.py
-    │   ├── LadderNet.py
-    │   ├── nn
-    │   └── UCTransNet.py
-    ├── prepare_dataset	        # Prepare the dataset (organize the image path of the dataset)
-    │   ├── speckle.py
-    │   ├── data_path_list		  # image path of dataset
-    │   
-    ├── tools			     # some tools
-    │   ├── ablation_plot.py
-    │   ├── ablation_plot_with_detail.py
-    │   ├── merge_k-flod_plot.py
-    │   └── visualization
-    ├── function.py			        # Creating dataloader, training and validation functions 
-    ├── test.py			            # Test file
-    └── train.py			          # Train file
+    ├── QT-GoBang		 	# Project source code
+    ├── application		    #The project runs on a PC without the Qt environment and relies on dynamic link library files
+    ├── goBang              
+    │   ├── MCTS_goBang.exe #You can use the windows application directly
+    ├── LICENSE		        # License document
 ```
 ### 1) Datasets preparation 
 The dataset is currently not fully open source
